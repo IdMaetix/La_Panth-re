@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: -2;
 }
 
 .b-parallax {
@@ -775,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -1042,6 +1043,37 @@ h4 {
 }
 
 /* code rajouter */
-.img-responsive {
-    
+/* Modification apporté */
+.text {
+    font-size: 21px;
+    font-weight: 550;
+    color: #6F6F6F;
+}
+
+.citation {
+    font-size: 18px;
+}
+.formAdress {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #000000;
+}
+
+input, textarea {
+    width: 75%;
+}
+.contenu-centrer {
+    text-align: center;
+}
+@media (max-width: 900px) {
+    .formAdress {
+        flex-direction: column;
+    }
 }
