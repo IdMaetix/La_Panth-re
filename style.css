@@ -12,6 +12,9 @@ body {
     text-decoration : none;
     cursor : pointer;
     }
+    .strong{
+        font-weight: inherit;
+    }
     #page-loading-blocs-notifaction {
     position : fixed;
     top : 0;
@@ -605,16 +608,6 @@ body {
     max-width : 100%;
     }
     }
-    /* @media only screen and (device-width) and (device-width) and (orientation: landscape) {
-    .b-parallax {
-    background-attachment : scroll;
-    }
-    } */
-    /* @media only screen and (device-width) and (device-width) {
-    .b-parallax {
-    background-attachment : scroll;
-    }
-    } */
     @media (max-width: 991px) {
     .container {
     width : 100%;
@@ -777,8 +770,9 @@ body {
     font-weight : 550;
     color : #6F6F6F;
     }
-    .citation {
+    .black-text {
     font-size : 18px;
+    color: #1f1d1d;
     }
     .formAdress {
     display : flex;
